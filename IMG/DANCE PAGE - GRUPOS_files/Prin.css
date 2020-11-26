@@ -1,0 +1,863 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1550px;
+    background-image: url(../IMG/BG1.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+
+}
+#btn-menu{
+    display: none;
+}
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+header label:hover{
+    cursor: pointer;
+    background: rgba(214, 55, 55, 0.3);
+    border-radius: 18px;
+}
+nav{
+    text-align: center;
+   
+}
+
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.menu li{
+    flex-grow: 0.1;
+}
+.menu li:hover{
+    background: rgba(214, 55, 55, 0.3);
+    border-radius: 25px;
+}
+.menu li a{
+    display: block;
+    padding: 10px 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+@media (max-width: 800px){
+    header label{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        margin-left: -70%;
+        transition: all 0.5s ease;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+
+    }
+
+}
+section{
+    max-width: 1000px;
+    text-align: center;
+    margin-top: 15%;
+    min-width: 800px;
+}
+section h1{
+    margin-left: -2%;
+    font-size: 70px;
+
+}
+section h3{ 
+    margin-left: -2%;
+    font-size: 22px;
+}
+button{
+    margin-top: 2%;
+    background: none;
+    border: 2px solid #000;
+    border-radius: 18px;
+    padding: 7px 18px;
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+}
+button a{
+    text-decoration: none;
+    
+}
+a{
+    text-decoration: none;
+}
+button:hover{
+    background: rgba(214, 55, 55, 0.3); 
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s;
+    text-decoration: none;
+}
+.Contenedor-1{
+    text-align: justify;
+    max-width: 1000px;
+    margin-top: 17%;
+    
+}
+.Contenedor-1 h1{
+    font-size: 80px;
+    text-align: center;
+    
+}
+.Contenedor-1 P{
+    text-align: center;
+    font-size: 18px;
+
+    
+}
+.Contenedor-1 button{
+    font-size: 15px;
+    margin-left:45%;
+    cursor: pointer;
+
+}
+#Grupos{
+    width: 100%;
+    margin-top: 17.5%;
+   
+    
+ 
+}
+p{
+    font-weight: 500;
+}
+.T-Grupos{
+    margin-top: -50%;
+    margin-left: 57%;
+    width: 80%;
+}
+#Evo{
+    width: 100%;
+    margin-top: 20.5%;
+   
+}
+.T-EVO{
+    margin-top: -45%;
+    width: 80%;
+    margin-left: 5%;
+}
+.Contenedor-2{
+    text-align: justify;
+    max-width: 1000px;
+    
+}
+.Contenedor-2 h1{
+    font-size: 80px;
+    text-align: center;
+    
+}
+.Contenedor-2 P{
+    text-align: center;
+    font-size: 18px;
+
+    
+}
+.Contenedor-2 button{
+    font-size: 15px;
+    margin-left: 40%;
+    cursor: pointer;
+    
+}
+#Historia{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 18%;
+   
+}
+.T-His{
+    margin-top: -43%;
+    width: 80%; 
+    margin-left: 36%;
+}
+.Contenedor-3{
+    text-align: justify;
+    max-width: 1000px;
+    
+    
+}
+.Contenedor-3 h1{
+    font-size: 80px;
+    text-align: center;
+    
+}
+.Contenedor-3 P{
+    text-align: center;
+    font-size: 18px;
+
+    
+}
+.Contenedor-3 button{
+    font-size: 15px;
+    margin-left: 40%;
+    cursor: pointer;
+}
+.T-His p{
+    margin-top: 6%;
+}
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: url(../IMG/up.png);
+    background-repeat: no-repeat;
+
+  }
+h1:hover{
+    color:#e40848 ;
+    cursor: pointer;
+}
+
+/* BANNER PRINCIPAL */
+
+@media screen and (max-width: 800px){
+    body{
+        background-size: 100%;
+    }
+    section{
+        width: 100%;
+    }
+    section h1{
+        font-size: 40px;
+        margin-left: -40%;
+    }
+    section h3{
+        font-size: 20px;
+        margin-left: -40%;
+    }
+    section button{
+        margin-left: -40%;
+    }
+}
+
+/* FIN DEL BANNER PRINCIPAL */
+
+/* DIFERENTES SECCIONES */
+
+@media screen and (max-width: 800px){
+    body{
+        background-size: 100%;
+    }
+    #Grupo1{
+        max-width: 100%;
+    }
+    .T-Grupos{
+        margin-left: 23%;
+        max-width: 100%;
+    }
+    .T-Grupos h1{
+        margin-top: 15%;
+        font-size: 45px;
+        margin-left: -6%;
+    }
+    .T-Grupos p{
+        font-size: 15px;
+        margin-right: 10%;
+    }
+    .T-Grupos button{
+        margin-left: 35%;
+    }
+    #Evo{
+        max-width: 100%; 
+    }
+    .T-EVO{
+        margin-left: 0%;
+        max-width: 100%;
+    }
+    .T-EVO h1{
+        margin-top: 10%;
+        font-size: 45px;
+    }
+    .T-EVO p{
+        font-size: 18px;
+    }
+    .T-EVO button{
+        margin-bottom: 10%;
+    }
+    #Historia{
+        max-width: 100%;
+    }
+    .T-His{
+        margin-left: 15%;
+        max-width: 100%;
+    }
+    .T-His h1{
+        margin-top: 10%;
+        font-size: 45px;
+    }
+    .T-His p{
+        font-size: 18px;
+    }
+    
+    .IMGBG{
+        width: 100%;
+    }
+    .IMGBG2{
+        width: 100%;
+    }
+    .IMGBG3{
+        width: 100%;
+       
+    }
+
+
+}
+
+/* FIN DE LAS DIFERENTES SECCIONES */
+
+/*  AJUSTE */
+
+@media screen and (max-width: 650px){
+    body{
+        background-size: 100%;
+    }
+    section{
+        width: 100%;
+    }
+    section h1{
+        font-size: 35px;
+        margin-left: -56%;
+    }
+    section h3{
+        font-size: 13px;
+        margin-left: -56%;
+    }
+    section button{
+        margin-left: -56%;
+    }
+}
+/*  AJUSTE */
+
+/* BANNER PRINCIPAL */
+
+@media screen and (max-width: 500px){
+    body{
+        background-size: 100%;
+    }
+    section{
+        width: 100%;
+    }
+    section h1{
+        font-size: 30px;
+        margin-left: -60%;
+    }
+    section h3{
+        font-size: 15px;
+        margin-left: -60%;
+    }
+    section button{
+        margin-left: -60%;
+    }
+}
+
+/* FIN DEL BANNER PRINCIPAL */
+
+/* DIFERENTES SECCIONES */
+
+@media screen and (max-width: 500px){
+    body{
+        background-size: 100%;
+    }
+    #Grupo1{
+        max-width: 100%;
+    }
+    .T-Grupos{
+        margin-left: 20%;
+        max-width: 100%;
+    }
+    .T-Grupos h1{
+        margin-top: 15%;
+        font-size: 30px;
+    }
+    .T-Grupos p{
+        font-size: 15px;
+    }
+    .T-Grupos button{
+        margin-left:35%;
+    }
+    #Evo{
+        max-width: 100%; 
+    }
+    .T-EVO{
+        margin-left: 0%;
+        max-width: 100%;
+    }
+    .T-EVO h1{
+        margin-top: 10%;
+        font-size: 30px;
+    }
+    .T-EVO p{
+        font-size: 15px;
+    }
+    .T-EVO button{
+        margin-bottom: 10%;
+        margin-left: 35%;
+    }
+    #Historia{
+        max-width: 100%;
+    }
+    .T-His{
+        margin-left: 15%;
+        max-width: 100%;
+    }
+    .T-His h1{
+        margin-top: 10%;
+        font-size: 30px;
+    }
+    .T-His p{
+        font-size: 15px;
+    }
+    .T-His button{
+        
+        margin-left: 35%;
+    }
+    .IMGBG{
+        width: 10   0%;
+    }
+    .IMGBG2{
+        width: 100%;
+    }
+    .IMGBG3{
+        width: 100%;
+       
+    }
+
+
+}
+
+/* FIN DE LAS DIFERENTES SECCIONES */
+
+/* BANNER PRINCIPAL */
+
+@media screen and (max-width: 410px){
+    body{
+        background-size: 100%;
+    }
+    section{
+        width: 100%;
+    }
+    section h1{
+        font-size: 25px;
+        margin-left: -68%;
+    }
+    section h3{
+        font-size: 10px;
+        margin-left: -68%;
+    }
+    section button{
+        margin-left: -68%;
+    }
+}
+
+/* FIN DEL BANNER PRINCIPAL */
+
+/* DIFERENTES SECCIONES */
+
+@media screen and (max-width: 410px){
+    body{
+        background-size: 100%;
+    }
+    #Grupo1{
+        max-width: 100%;
+    }
+    .T-Grupos{
+        margin-left: 25%;
+        max-width: 100%;
+    }
+    .T-Grupos h1{
+        margin-top: 15%;
+        font-size: 25px;
+    }
+    .T-Grupos p{
+        font-size: 12px;
+        margin-right: 13%;
+    }
+    .T-Grupos button{
+        margin-left:30%;
+    }
+    #Evo{
+        max-width: 100%; 
+    }
+    .T-EVO{
+        margin-left: 0%;
+        max-width: 100%;
+    }
+    .T-EVO h1{
+        margin-top: 10%;
+        font-size: 25px;
+    }
+    .T-EVO p{
+        font-size: 12px;
+        margin-right: 4%;
+    }
+    .T-EVO button{
+        margin-bottom: 10%;
+        margin-left: 30%;
+    }
+    #Historia{
+        max-width: 100%;
+    }
+    .T-His{
+        margin-left: 15%;
+        max-width: 100%;
+    }
+    .T-His h1{
+        margin-top: 10%;
+        font-size: 25px;
+    }
+    .T-His p{
+        font-size: 12px;
+        margin-right: 5%;
+    }
+    .T-His button{
+        
+        margin-left: 30%;
+    }
+    .IMGBG{
+        width: 100%;
+    }
+    .IMGBG2{
+        width: 100%;
+    }
+    .IMGBG3{
+        width: 100%;
+       
+    }
+
+
+}
+
+/* FIN DE LAS DIFERENTES SECCIONES */
+
+/* BANNER PRINCIPAL */
+
+@media screen and (max-width: 350px){
+    body{
+        background-size: 100%;
+    }
+    section{
+        width: 100%;
+    }
+    section h1{
+        font-size: 22px;
+        margin-left: -72%;
+    }
+    section h3{
+        font-size: 9px;
+        margin-left: -72%;
+    }
+    section button{
+        margin-left: -72%;
+    }
+}
+
+/* FIN DEL BANNER PRINCIPAL */
+
+/* DIFERENTES SECCIONES */
+
+@media screen and (max-width: 350px){
+    body{
+        background-size: 100%;
+    }
+    #Grupo1{
+        max-width: 100%;
+    }
+    .T-Grupos{
+        margin-left: 25%;
+        max-width: 100%;
+    }
+    .T-Grupos h1{
+        margin-top: 15%;
+        font-size: 22px;
+    }
+    .T-Grupos p{
+        font-size: 10px;
+        margin-right: 13%;
+    }
+    .T-Grupos button{
+        margin-left:25%;
+    }
+    #Evo{
+        max-width: 100%; 
+    }
+    .T-EVO{
+        margin-left: 0%;
+        max-width: 100%;
+    }
+    .T-EVO h1{
+        margin-top: 10%;
+        font-size: 22px;
+    }
+    .T-EVO p{
+        font-size: 10px;
+        margin-right: 4%;
+    }
+    .T-EVO button{
+        margin-bottom: 10%;
+        margin-left: 25%;
+    }
+    #Historia{
+        max-width: 100%;
+    }
+    .T-His{
+        margin-left: 15%;
+        max-width: 100%;
+    }
+    .T-His h1{
+        margin-top: 10%;
+        font-size: 22px;
+    }
+    .T-His p{
+        font-size: 11px;
+        margin-right: 5%;
+    }
+    .T-His button{
+        
+        margin-left: 30%;
+    }
+   
+    .IMGBG{
+        width: 100%;
+    }
+    .IMGBG2{
+        width: 100%;
+    }
+    .IMGBG3{
+        width: 100%;
+       
+    }
+
+
+}
+
+/* FIN DE LAS DIFERENTES SECCIONES */
+
+/* BANNER PRINCIPAL */
+
+@media screen and (max-width: 310px){
+    body{
+        background-size: 100%;
+    }
+    section{
+        width: 100%;
+    }
+    section h1{
+        font-size: 20px;
+        margin-left: -77%;
+    }
+    section h3{
+        font-size: 9px;
+        margin-left: -77%;
+    }
+    section button{
+        margin-left: -77%;
+    }
+}
+
+/* FIN DEL BANNER PRINCIPAL */
+
+/* DIFERENTES SECCIONES */
+
+@media screen and (max-width: 310px){
+    body{
+        background-size: 100%;
+    }
+    #Grupo1{
+        max-width: 100%;
+    }
+    .T-Grupos{
+        margin-left: 25%;
+        max-width: 100%;
+    }
+    .T-Grupos h1{
+        margin-top: 15%;
+        font-size: 20px;
+    }
+    .T-Grupos p{
+        font-size: 9px;
+        margin-right: 13%;
+    }
+    .T-Grupos button{
+        margin-left:24%;
+    }
+    #Evo{
+        max-width: 100%; 
+    }
+    .T-EVO{
+        margin-left: 0%;
+        max-width: 100%;
+    }
+    .T-EVO h1{
+        margin-top: 10%;
+        font-size: 20px;
+    }
+    .T-EVO p{
+        font-size: 9px;
+        margin-right: 4%;
+    }
+    .T-EVO button{
+        margin-bottom: 10%;
+        margin-left: 23%;
+    }
+    #Historia{
+        max-width: 100%;
+    }
+    .T-His{
+        margin-left: 15%;
+        max-width: 100%;
+    }
+    .T-His h1{
+        margin-top: 10%;
+        font-size: 20px;
+    }
+    .T-His p{
+        font-size: 10px;
+        margin-right: 5%;
+    }
+    .T-His button{
+        
+        margin-left: 24%;
+    }
+   
+    .IMGBG{
+        width: 100%;
+    }
+    .IMGBG2{
+        width: 100%;
+    }
+    .IMGBG3{
+        width: 100%;
+       
+    }
+
+
+}
+
+/* FIN DE LAS DIFERENTES SECCIONES */
+
+/* BANNER PRINCIPAL */
+
+@media screen and (max-width: 260px){
+    body{
+        background-size: 100%;
+    }
+    section{
+        width: 100%;
+    }
+    section h1{
+        font-size: 17px;
+        margin-left: -80%;
+    }
+    section h3{
+        font-size: 8px;
+        margin-left: -80%;
+    }
+    section button{
+        margin-left: -80%;
+    }
+}
+
+/* FIN DEL BANNER PRINCIPAL */
+
+/* DIFERENTES SECCIONES */
+
+@media screen and (max-width: 260px){
+    body{
+        background-size: 100%;
+    }
+    #Grupo1{
+        max-width: 100%;
+    }
+    .T-Grupos{
+        margin-left: 25%;
+        max-width: 100%;
+    }
+    .T-Grupos h1{
+        margin-top: 15%;
+        font-size: 18px;
+    }
+    .T-Grupos p{
+        font-size: 8px;
+        margin-right: 13%;
+    }
+    .T-Grupos button{
+        margin-left:20%;
+    }
+    #Evo{
+        max-width: 100%; 
+    }
+    .T-EVO{
+        margin-left: 0%;
+        max-width: 100%;
+    }
+    .T-EVO h1{
+        margin-top: 10%;
+        font-size: 18px;
+    }
+    .T-EVO p{
+        font-size: 8px;
+        margin-right: 4%;
+    }
+    .T-EVO button{
+        margin-bottom: 10%;
+        margin-left: 20%;
+    }
+    #Historia{
+        max-width: 100%;
+    }
+    .T-His{
+        margin-left: 15%;
+        max-width: 100%;
+    }
+    .T-His h1{
+        margin-top: 10%;
+        font-size: 18px;
+    }
+    .T-His p{
+        font-size: 9px;
+        margin-right: 5%;
+    }
+    .T-His button{
+        
+        margin-left: 20%;
+    }
+   
+    .IMGBG{
+        width: 100%;
+    }
+    .IMGBG2{
+        width: 100%;
+    }
+    .IMGBG3{
+        width: 100%;
+       
+    }
+
+
+}
+
+/* FIN DE LAS DIFERENTES SECCIONES */

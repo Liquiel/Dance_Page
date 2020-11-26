@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DANCE PAGE - GRUPOS</title>
+    <link rel="stylesheet" href="../CSS/Prin.css">
+    <link rel="stylesheet" href="../CSS/FOOTER.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../CSS/Grupo1.css">
+</head>
+
+<body>
+    <header>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="../IMG/Logo.png" width="30" height="30"></label>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="../Prin.html">Inicio</a></li>
+                <li><a href="Grupos.html">Grupos</a></li>
+                <li><a href="Evo.html">Evolución</a></li>
+                <li><a href="His.html">Historia</a></li>
+                <li><a href="Me.html">Sobre Mí</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contenedor">
+        <h1>JABBAWOCKEEZ</h1>
+        <div class="fila">
+            <div class="col">
+                <div class="img1">
+                    <img src="../IMG/IMG1.jpg" width="100%" class="imgPrin">
+                    <img src="../IMG/play.png" class="play-btn"
+                    onclick="playVideo('../VID/JAB.mp4')">
+                </div>
+            </div>
+            <div class="col">
+                <div class="small-image-fila">
+                    <div class="small-image">
+                        <img src="../IMG/IMG2.jpg" width="250">
+                        <img src="../IMG/play.png" class="play-btn"
+                        onclick="playVideo('../VID/JAB.mp4')">
+                    </div>
+                    <p>COREOGRAFÍA PRESENTADA EN EL AÑO 2019 EN LAS FINALES DE LA NBA</p>
+                </div>
+                <div class="small-image-fila">
+                    <div class="small-image">
+                        <img src="../IMG/IMG3.jpg" width="250" height="120">
+                        <img src="../IMG/play.png" class="play-btn"
+                        onclick="playVideo('../VID/JAB.mp4')">
+                        
+                    </div>
+                    <p>COREOGRAFÍA PRESENTADA EN EL AÑO 2017 EN LAS FINALES DE LA NBA</p>
+                </div>
+                <div class="small-image-fila">
+                    <div class="small-image">
+                        <img src="../IMG/IMG4.jpg" width="250">
+                        <img src="../IMG/play.png" class="play-btn"
+                        onclick="playVideo('../VID/JAB.mp4')">
+                    </div>
+                    <p>COREOGRAFÍA PRESENTADA EN EL AÑO 2019 EN LAS FINALES DE LA NBA</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-player" id="VideoPlayer">
+        <video width="100%" controls autoplay id="JBVideo">
+            <source src="../VID/JB.mp4" type="video/mp4">
+        </video>
+        <img src="../IMG/close.png" class="close-btn"
+         onclick="stopVideo()">
+    </div>
+
+    <script>
+        var VideoPlayer = document.getElementById("VideoPlayer");
+        var JBVideo = document.getElementById("JBVideo");
+
+        function stopVideo(){
+            VideoPlayer.style.display = "none";
+        }
+
+        function playVideo(file){
+            JBVideo.src = file;
+            VideoPlayer.style.display = "block";
+        } 
+    </script>
+
+<footer>
+    <div class="footer-content">
+        <h3>DANCE PAGE</h3>
+        <p>Bailar es el lenguaje oculto del alma.</p>
+        <ul class="socials">
+            <li><a href="https://www.instagram.com/ezequielo_hdez/" target="blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/ezequielo_hdez/" target="blank"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright &copy;2020 DANCE-PAGE. Desing by <span>Ezequiel Hernández </span></p>
+    </div>
+</footer>
+</body>
+
+</html>

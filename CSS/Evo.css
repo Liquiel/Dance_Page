@@ -1,0 +1,981 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../IMG/BGE.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    width: 100%;
+
+}
+
+#btn-menu {
+    display: none;
+}
+
+header label {
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+header label:hover {
+    cursor: pointer;
+    background: rgba(214, 55, 55, 0.3);
+    border-radius: 18px;
+}
+
+nav {
+    text-align: center;
+
+}
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    flex-grow: 0.1;
+}
+
+.menu li:hover {
+    background: rgba(214, 55, 55, 0.3);
+    border-radius: 25px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    header label {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        margin-left: -70%;
+        transition: all 0.5s ease;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    #btn-menu:checked~.menu {
+        margin: 0;
+
+    }
+
+}
+
+.contenedor1 {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    margin-top: 5em;
+    margin-bottom: 15.5em;
+
+}
+
+.contenedor1 h1 {
+    font-size: 200px;
+    font-weight: 800;
+}
+
+.info-50 {
+    width: 50%;
+    text-align: justify;
+    margin: auto;
+    font-size: 20px;
+    margin-left: -8%;
+}
+
+.info-50 h1 {
+    font-size: 50px;
+}
+
+.info-50 .red {
+    color: #e40848;
+
+}
+
+.fecha-50 {
+    margin: auto;
+    margin-left: 18%;
+}
+
+.D2 {
+    margin-top: -45%;
+    color: #e40848;
+}
+
+.contenedor2 {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 9em;
+    margin-top: -8em;
+
+}
+
+.contenedor2 h1 {
+    font-size: 200px;
+    font-weight: 800;
+}
+
+.info-60 {
+    width: 50%;
+    text-align: justify;
+    margin: auto;
+    font-size: 20px;
+    margin-right: -10%;
+    margin-left: 18%;
+}
+
+.info-60 h1 {
+    font-size: 50px;
+}
+
+.fecha-60 {
+    margin: auto;
+}
+
+.fecha-60 .D2 {
+    color: #e40848;
+}
+
+.contenedor3 {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    margin-top: 2em;
+    margin-bottom: 10em;
+
+}
+
+.contenedor3 h1 {
+    font-size: 200px;
+    font-weight: 800;
+}
+
+.info-70 {
+    width: 50%;
+    text-align: justify;
+    margin: auto;
+    font-size: 20px;
+    margin-left: -8%;
+}
+
+.info-70 h1 {
+    font-size: 50px;
+}
+
+.info-70 .red {
+    color: #e40848;
+
+}
+
+.fecha-70 {
+    margin: auto;
+    margin-left: 18%;
+}
+
+.D2 {
+    margin-top: -45%;
+    color: #e40848;
+}
+
+.contenedor4 {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 10em;
+
+}
+
+.contenedor4 h1 {
+    font-size: 200px;
+    font-weight: 800;
+}
+
+.info-80 {
+    width: 50%;
+    text-align: justify;
+    margin: auto;
+    font-size: 20px;
+    margin-left: 18%;
+}
+
+.info-80 h1 {
+    font-size: 50px;
+}
+
+.info-80 .red {
+    color: #e40848;
+
+}
+
+.fecha-80 {
+    margin: auto;
+}
+
+.D2 {
+    margin-top: -45%;
+    color: #e40848;
+}
+
+.contenedor5 {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    margin-top: -2em;
+    margin-bottom: 8em;
+
+}
+
+.contenedor5 h1 {
+    font-size: 200px;
+    font-weight: 800;
+}
+
+.info-90 {
+    width: 50%;
+    text-align: justify;
+    margin: auto;
+    font-size: 20px;
+    margin-left: -8%;
+}
+
+.info-90 h1 {
+    font-size: 50px;
+}
+
+.fecha-90 {
+    margin: auto;
+    margin-left: 18%;
+}
+
+.D2 {
+    margin-top: -45%;
+    color: #e40848;
+}
+
+.contenedor6 {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    margin-top: 11em;
+    margin-bottom: 15em;
+
+}
+
+.contenedor6 h1 {
+    font-size: 200px;
+    font-weight: 800;
+}
+
+.info-20 {
+    width: 50%;
+    text-align: justify;
+    margin: auto;
+    font-size: 20px;
+}
+
+.info-20 h1 {
+    font-size: 50px;
+}
+
+.fecha-20 {
+    margin: auto;
+    margin-left: 18%;
+}
+
+.fecha-20 h1 {
+    margin-left: -1em;
+}
+
+.red {
+    color: #e40848;
+    margin-left: 2%;
+}
+
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: url(../IMG/up.png);
+    background-repeat: no-repeat;
+
+}
+
+.contenedor7 {
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 5em;
+    margin-bottom: 6em;
+}
+
+video:focus {
+    outline: none;
+}
+
+video {
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 10px;
+    box-shadow: 15px 15px #e40848;
+
+}
+
+.D2:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.D1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.veinte:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.red:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+
+    .contenedor1 {
+        width: 100%;
+    }
+
+    .fecha-50 h1 {
+        font-size: 150px;
+
+    }
+
+    .info-50 p {
+        font-size: 18px;
+        margin-left: 5%;
+    }
+
+    .info-50 h1 {
+        font-size: 35px;
+        margin-left: 5%;
+    }
+
+    .contenedor12 {
+        width: 100%;
+    }
+
+    .fecha-60 h1 {
+        font-size: 150px;
+
+    }
+
+    .info-60 p {
+        font-size: 18px;
+        margin-right: 5%;
+    }
+
+    .info-60 h1 {
+        font-size: 35px;
+        margin-right: 5%;
+    }
+
+    .contenedor3 {
+        width: 100%;
+    }
+
+    .fecha-70 h1 {
+        font-size: 150px;
+
+    }
+
+    .info-70 p {
+        font-size: 18px;
+        margin-left: 5%;
+    }
+
+    .info-70 h1 {
+        font-size: 35px;
+        margin-left: 5%;
+    }
+
+    .contenedor4 {
+        width: 100%;
+    }
+
+    .fecha-80 h1 {
+        font-size: 150px;
+
+    }
+
+    .info-80 p {
+        font-size: 18px;
+        margin-right: 5%;
+    }
+
+    .info-80 h1 {
+        font-size: 35px;
+        margin-right: 5%;
+    }
+
+    .contenedor5 {
+        width: 100%;
+    }
+
+    .fecha-90 h1 {
+        font-size: 150px;
+
+    }
+
+    .info-90 p {
+        font-size: 18px;
+        margin-left: 5%;
+    }
+
+    .info-90 h1 {
+        font-size: 35px;
+        margin-left: 5%;
+    }
+    .contenedor6{
+        width: 100%;
+    }
+    .fecha-20 h1{
+        font-size: 100px;
+       
+    }
+    .info-20 p{
+        font-size: 18px;
+    }
+    .contenedor6 .red{
+        font-size: 100px; 
+        margin-top: 25%; 
+    }
+}
+
+@media screen and (max-width: 605px) {
+    body {
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+
+    .contenedor1 {
+        width: 100%;
+    }
+
+    .fecha-50 h1 {
+        font-size: 120px;
+
+    }
+
+    .info-50 p {
+        font-size: 15px;
+        margin-left: 5%;
+    }
+
+    .info-50 h1 {
+        font-size: 30px;
+        margin-left: 5%;
+    }
+
+    .contenedor12 {
+        width: 100%;
+    }
+
+    .fecha-60 h1 {
+        font-size: 120px;
+
+    }
+
+    .info-60 p {
+        font-size: 15px;
+        margin-right: 13%;
+        margin-left: -5%;
+    }
+
+    .info-60 h1 {
+        font-size: 30px;
+        margin-right: 5%;
+    }
+
+    .contenedor3 {
+        width: 100%;
+    }
+
+    .fecha-70 h1 {
+        font-size: 120px;
+
+    }
+
+    .info-70 p {
+        font-size: 15px;
+        margin-left: 5%;
+    }
+
+    .info-70 h1 {
+        font-size: 30px;
+        margin-left: 5%;
+    }
+
+    .contenedor4 {
+        width: 100%;
+    }
+
+    .fecha-80 h1 {
+        font-size: 120px;
+
+    }
+
+    .info-80 p {
+        font-size: 15px;
+        margin-right: 5%;
+    }
+
+    .info-80 h1 {
+        font-size: 30px;
+        margin-right: 5%;
+    }
+
+    .contenedor5 {
+        width: 100%;
+    }
+
+    .fecha-90 h1 {
+        font-size: 120px;
+
+    }
+
+    .info-90 p {
+        font-size: 15px;
+        margin-left: 5%;
+    }
+
+    .info-90 h1 {
+        font-size: 30px;
+        margin-left: 5%;
+    }
+    .contenedor6{
+        width: 100%;
+    }
+    .fecha-20 h1{
+        font-size: 90px;
+       
+    }
+    .info-20 p{
+        font-size: 15px;
+    }
+    .contenedor6 .red{
+        font-size: 100px; 
+        margin-top: 30%; 
+    }
+}
+@media screen and (max-width: 521px){
+    .contenedor1{
+        margin-left: -8%;
+    }
+    .contenedor2{
+        margin-left: -8%;
+    }
+    
+    .contenedor3{
+        margin-left: -8%;
+    }
+    
+    .contenedor4{
+        margin-left: -8%;
+    }
+    
+    .contenedor5{
+        margin-left: -8%;
+    }
+    
+}
+
+@media screen and (max-width: 405px) {
+    body {
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+
+    .contenedor1 {
+        width: 100%;
+    }
+
+    .fecha-50 h1 {
+        font-size: 100px;
+
+    }
+
+    .info-50 p {
+        font-size: 10px;
+        margin-left: 15%;
+    }
+
+    .info-50 h1 {
+        font-size: 25px;
+        margin-left: 15%;
+    }
+
+    .contenedor12 {
+        width: 100%;
+    }
+
+    .fecha-60 h1 {
+        font-size: 100px;
+
+    }
+
+    .info-60 p {
+        font-size: 10px;
+        margin-right: 13%;
+        margin-left: -5%;
+    }
+
+    .info-60 h1 {
+        font-size: 25px;
+        margin-right: 5%;
+    }
+
+    .contenedor3 {
+        width: 100%;
+    }
+
+    .fecha-70 h1 {
+        font-size: 100px;
+
+    }
+
+    .info-70 p {
+        font-size: 10px;
+        margin-left: 15%;
+    }
+
+    .info-70 h1 {
+        font-size: 25px;
+        margin-left: 15%;
+    }
+
+    .contenedor4 {
+        width: 100%;
+    }
+
+    .fecha-80 h1 {
+        font-size: 100px;
+
+    }
+
+    .info-80 p {
+        font-size: 10px;
+        margin-right: 5%;
+    }
+
+    .info-80 h1 {
+        font-size: 25px;
+        margin-right: 5%;
+    }
+
+    .contenedor5 {
+        width: 100%;
+    }
+
+    .fecha-90 h1 {
+        font-size: 100px;
+
+    }
+
+    .info-90 p {
+        font-size: 10px;
+        margin-left: 15%;
+    }
+
+    .info-90 h1 {
+        font-size: 25px;
+        margin-left: 15%;
+    }
+    .contenedor6{
+        width: 100%;
+    }
+    .fecha-20 h1{
+        font-size: 70px;
+       
+    }
+    .info-20 p{
+        font-size: 12px;
+    }
+    .info-20 h1{
+        font-size: 30px;
+    }
+    .contenedor6 .red{
+        font-size: 70px; 
+        margin-top: 30%; 
+    }
+}
+@media screen and (max-width: 300px) {
+    body {
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+
+    .contenedor1 {
+        width: 100%;
+    }
+
+    .fecha-50 h1 {
+        font-size: 80px;
+
+    }
+
+    .info-50 p {
+        font-size: 10px;
+        margin-left: 15%;
+    }
+
+    .info-50 h1 {
+        font-size: 20px;
+        margin-left: 15%;
+    }
+
+    .contenedor12 {
+        width: 100%;
+    }
+
+    .fecha-60 h1 {
+        font-size: 80px;
+
+    }
+
+    .info-60 p {
+        font-size: 10px;
+        margin-right: 13%;
+        margin-left: -5%;
+    }
+
+    .info-60 h1 {
+        font-size: 20px;
+        margin-right: 5%;
+    }
+
+    .contenedor3 {
+        width: 100%;
+    }
+
+    .fecha-70 h1 {
+        font-size: 80px;
+
+    }
+
+    .info-70 p {
+        font-size: 10px;
+        margin-left: 15%;
+    }
+
+    .info-70 h1 {
+        font-size: 20px;
+        margin-left: 15%;
+    }
+
+    .contenedor4 {
+        width: 100%;
+    }
+
+    .fecha-80 h1 {
+        font-size: 80px;
+
+    }
+
+    .info-80 p {
+        font-size: 10px;
+        margin-right: 5%;
+    }
+
+    .info-80 h1 {
+        font-size: 20px;
+        margin-right: 5%;
+    }
+
+    .contenedor5 {
+        width: 100%;
+    }
+
+    .fecha-90 h1 {
+        font-size: 80px;
+
+    }
+
+    .info-90 p {
+        font-size: 10px;
+        margin-left: 15%;
+    }
+
+    .info-90 h1 {
+        font-size: 20px;
+        margin-left: 15%;
+    }
+    .contenedor6{
+        width: 100%;
+    }
+    .fecha-20 h1{
+        font-size: 50px;
+       
+    }
+    .info-20 p{
+        font-size: 12px;
+    }
+    .info-20 h1{
+        font-size: 25px;
+    }
+    .contenedor6 .red{
+        font-size: 50px; 
+        margin-top: 60%; 
+    }
+}
+@media screen and (max-width: 250px) {
+    body {
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+
+    .contenedor1 {
+        width: 100%;
+    }
+
+    .fecha-50 h1 {
+        font-size: 50px;
+
+    }
+
+    .info-50 p {
+        font-size: 10px;
+        margin-left: 15%;
+    }
+
+    .info-50 h1 {
+        font-size: 15px;
+        margin-left: 15%;
+    }
+
+    .contenedor12 {
+        width: 100%;
+    }
+
+    .fecha-60 h1 {
+        font-size: 50px;
+
+    }
+
+    .info-60 p {
+        font-size: 10px;
+        margin-right: 13%;
+        margin-left: -5%;
+    }
+
+    .info-60 h1 {
+        font-size: 15px;
+        margin-right: 5%;
+    }
+
+    .contenedor3 {
+        width: 100%;
+    }
+
+    .fecha-70 h1 {
+        font-size: 50px;
+
+    }
+
+    .info-70 p {
+        font-size: 10px;
+        margin-left: 15%;
+    }
+
+    .info-70 h1 {
+        font-size: 15px;
+        margin-left: 15%;
+    }
+
+    .contenedor4 {
+        width: 100%;
+    }
+
+    .fecha-80 h1 {
+        font-size: 50px;
+
+    }
+
+    .info-80 p {
+        font-size: 10px;
+        margin-right: 5%;
+    }
+
+    .info-80 h1 {
+        font-size: 15px;
+        margin-right: 5%;
+    }
+
+    .contenedor5 {
+        width: 100%;
+    }
+
+    .fecha-90 h1 {
+        font-size: 50px;
+
+    }
+
+    .info-90 p {
+        font-size: 10px;
+        margin-left: 15%;
+    }
+
+    .info-90 h1 {
+        font-size: 15px;
+        margin-left: 15%;
+    }
+    .contenedor6{
+        width: 100%;
+    }
+    .fecha-20 h1{
+        font-size: 20px;
+       
+    }
+    .info-20 p{
+        font-size: 10px;
+    }
+    .info-20 h1{
+        font-size: 20px;
+    }
+    .contenedor6 .red{
+        font-size: 20px; 
+        margin-top: 65%; 
+    }
+}

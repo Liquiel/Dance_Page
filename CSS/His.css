@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../IMG/B4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+.Contenedor-prin{
+    margin-top: 10%;
+}
+.Contenedor1{
+    max-width: 1000px;
+    text-align: justify;
+    margin: auto;
+}
+.Contenedor1 h1{
+   text-align: center;
+   font-size: 60px;
+   margin-top: 4%;
+   margin-bottom: 4%;
+}
+.Contenedor2{
+    max-width: 1000px;
+    text-align: justify;
+    margin: auto;
+}
+.Contenedor2 h1{
+   text-align: center;
+   font-size: 60px;
+   margin-top: 4%;
+   margin-bottom: 4%;
+   color:#e40848 ;
+}
+.Contenedor3{
+    max-width: 1000px;
+    text-align: justify;
+    margin: auto;
+}
+.Contenedor3 h1{
+   text-align: center;
+   font-size: 60px;
+   margin-top: 4%;
+   margin-bottom: 4%;
+}
+.Contenedor4{
+    max-width: 1000px;
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 10%;
+}
+.Contenedor4 h1{
+   text-align: center;
+   font-size: 60px;
+   margin-top: 4%;
+   margin-bottom: 4%;
+   color: #e40848;
+}
